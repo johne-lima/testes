@@ -69,7 +69,7 @@ body {
     right: 5.2em;
     bottom: 4em;
     transform-origin: 100% 2em;
-    transform: rotate(-10deg);
+    transform: rotate(10deg);
     --scale: calc(1 - (5 - var(--n)) * 0.2);
     transform: rotate(10deg) scale(var(--scale));
     filter: brightness(calc(100% - (5 - var(--n)) * 10%));
@@ -78,7 +78,7 @@ body {
 }
 
 @keyframes tap-upper {
-    0%, 50%, 100% {
+    0%,50%,100% {
         transform: rotate(10deg) scale(var(--scale));
     }
     40% {
